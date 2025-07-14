@@ -1,20 +1,16 @@
 # Tugas-Algoritma-Pemograman-Pertemuan-14
-# Aplikasi Toko Online
+# Aplikasi Manajemen Inventori
 
-Aplikasi Toko Online adalah sebuah program berbasis teks yang memungkinkan pengguna untuk mengelola inventori barang dan melakukan transaksi belanja. Aplikasi ini memiliki dua peran utama: Admin dan Pelanggan.
+Aplikasi Manajemen Inventori adalah program berbasis teks yang memungkinkan pengguna untuk mengelola inventori barang. Pengguna dapat menambah, mencari, memperbarui, menghapus, dan menghasilkan laporan inventori. Aplikasi ini menggunakan file JSON untuk menyimpan data inventori.
 
 ## Fitur
 
-### Untuk Admin
-- **Tambah Barang Baru**: Admin dapat menambahkan barang baru ke dalam inventori dengan memasukkan nama, harga, dan jumlah stok.
-- **Lihat Semua Barang**: Admin dapat melihat daftar semua barang yang ada di inventori, baik dalam urutan default maupun terurut berdasarkan nama.
-- **Cari Barang**: Admin dapat mencari barang berdasarkan nama.
-- **Update Stok Barang**: Admin dapat memperbarui jumlah stok barang yang ada.
-- **Hapus Barang**: Admin dapat menghapus barang dari inventori.
-
-### Untuk Pelanggan
-- **Lihat & Beli Barang**: Pelanggan dapat melihat daftar barang yang tersedia dan memilih barang untuk dibeli.
-- **Lihat Keranjang & Checkout**: Pelanggan dapat melihat barang yang telah ditambahkan ke keranjang dan melakukan proses checkout untuk menyelesaikan pembelian.
+### Manajemen Inventori
+- **Tambah Item**: Menambahkan barang baru ke dalam inventori dengan kode unik, nama, harga, stok, dan kategori.
+- **Cari Item**: Mencari barang berdasarkan nama atau kode.
+- **Update Stok**: Memperbarui jumlah stok barang yang ada.
+- **Hapus Item**: Menghapus barang dari inventori.
+- **Generate Report**: Menghasilkan laporan inventori yang menampilkan semua barang yang ada.
 
 ## Cara Menggunakan
 
